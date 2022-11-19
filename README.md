@@ -20,10 +20,15 @@
 </div>
 
 ### Execução do Runner.java
-Vale lembrar que dependendo do tipo do cliente declarado no "conta.java" na variavel booleana "cliEspecial" (caso a variavel seja TRUE sera cliente especial e FALSO sera cliente comum) o resultado do "runner.java" sera diferente dependendo disto.
+Vale lembrar que dependendo do tipo do cliente declarado no "conta.java" na variavel booleana "cliEspecial" (caso a variavel seja TRUE sera cliente especial e FALSO sera cliente comum) o resultado do "runner.java" e do console sera diferente dependendo disto.
 ### cliEspecial = true (cliente especial)
 <div align="center">
 <img src="https://cdn.discordapp.com/attachments/1040755969589788675/1043330086067241030/image.png">
+</div>
+
+### Saida do console "cliEspecial = true (cliente especial)"
+<div align="center">
+<img src="https://cdn.discordapp.com/attachments/1040755969589788675/1043336121133838356/image.png">
 </div>
 
 ### cliEspecial = false (cliente comum)
@@ -31,6 +36,10 @@ Vale lembrar que dependendo do tipo do cliente declarado no "conta.java" na vari
 <img src="https://cdn.discordapp.com/attachments/1040755969589788675/1043330476561154078/image.png">
 </div>
 
+### Saida do console "cliEspecial = false (cliente comum)"
+<div align="center">
+<img src="https://cdn.discordapp.com/attachments/1040755969589788675/1043335309284360312/image.png">
+</div>
 
 ### Como usar
   Baixe o projeto (crie uma pasta "disciplinaqualidade" e coloque os arquivos dentro para evitar problemas com o nome do projeto na hora de executar) e abra-o em uma IDE (recomendado Eclipse) porem antes sera necessário baixar algumas dependências (java 8, cucumber-junit plugin), após o projeto       aberto e as dependências instaladas basta executar o "Runner.java". 
